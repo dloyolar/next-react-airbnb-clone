@@ -1,4 +1,5 @@
 import { Banner } from '@/components/Banner';
+import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
 import { LargeCard } from '@/components/LargeCard';
 import { MediumCard } from '@/components/MediumCard';
@@ -50,6 +51,8 @@ export default function Home({ data, cardsData }) {
           img="https://a0.muscache.com/im/pictures/2da67c1c-0c61-4629-8798-1d4de1ac9291.jpg?im_w=1440"
         />
       </main>
+
+      <Footer />
     </div>
   );
 }
