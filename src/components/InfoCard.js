@@ -19,6 +19,7 @@ export const InfoCard = ({
           fill
           style={{ objectFit: 'cover' }}
           alt={`${title} image`}
+          className="rounded-2xl"
         />
       </div>
 
